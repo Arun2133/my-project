@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './App';
 
-{
-  var a=5;
-  var b=10;
-  var c=a+b;
+ReactDOM.render(
+  <React.StrictMode>
+    <App/>
+  </React.StrictMode>,
   document.getElementById('root')
-}
-a();
- 
-
- 
+);
